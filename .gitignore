@@ -1,0 +1,18 @@
+# LaTeX build products
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.pdf
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Session scratch (knowledge-architecture: this agent loop)
+PLAN.md
+
+.DS_Store
