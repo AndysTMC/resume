@@ -35,3 +35,9 @@ CI attaches `resume-2026.08.17.pdf` to a GitHub Release of the same name.
 
 - How to operate here: [AGENTS.md](AGENTS.md)
 - Why these choices: [docs/decisions/](docs/decisions/_index.md)
+
+## License
+
+Reusable code and LaTeX template material are available under the MIT License.
+Personal resume content and generated PDFs are excluded from that grant; see
+[LICENSE](LICENSE) for the exact scope and the vendored linter notice.

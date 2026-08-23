@@ -1,21 +1,24 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{resume}[2026/08/17 Shared resume preamble]
+\ProvidesPackage{resume}[2026/08/24 Shared resume preamble]
+
+\ifdefined\pdfgentounicode
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
 
 \RequirePackage{parskip}
-\RequirePackage[usenames,dvipsnames]{xcolor}
+\RequirePackage[dvipsnames]{xcolor}
 \RequirePackage[scale=0.94]{geometry}
 \RequirePackage{tabularx}
 \RequirePackage{enumitem}
 \RequirePackage{titlesec}
-\RequirePackage{fontawesome5}
 \RequirePackage{charter}
-\RequirePackage{tcolorbox}
 \RequirePackage[unicode,draft=false]{hyperref}
 
 \newcolumntype{C}{>{\centering\arraybackslash}X}
 
-\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
-\titlespacing{\section}{0pt}{2pt}{2pt}
+\titleformat{\section}{\Large\bfseries\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{6pt}{3pt}
 
 \definecolor{linkcolour}{rgb}{0,0.2,0.6}
 \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
